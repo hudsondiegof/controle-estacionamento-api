@@ -46,6 +46,6 @@ public class VagaEstacionamentoService {
     }
 
     @Transactional
-    public void delete(VagaEstacionamentoModel parkingSpotModel) {vagaEstacionamentoRepository.delete(parkingSpotModel);
+    public void delete(VagaEstacionamentoModel vagaEstacionamentoModel) {vagaEstacionamentoRepository.delete(vagaEstacionamentoModel);
     }
 }
